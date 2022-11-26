@@ -1,0 +1,1 @@
+export const testFn = (num: number): string => num.toString()

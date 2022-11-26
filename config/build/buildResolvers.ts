@@ -1,9 +1,8 @@
-import {ResolveOptions} from 'webpack';
+import webpack from 'webpack';
 
-
-export const buildResolvers = (): ResolveOptions => {
+export function buildResolvers(): webpack.ResolveOptions {
 
   return {
-    extensions: ['.tsx', '.ts', '.scss'],
+    extensions: ['.tsx', '.ts', '.js'],
   }
 }

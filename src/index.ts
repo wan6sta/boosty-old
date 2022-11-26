@@ -1,3 +1,3 @@
-import {testFn} from "./test"
+import {someFn} from "./test";
 
-console.log(testFn(123123))
+console.log(someFn(123))

@@ -1,1 +1,4 @@
-export const testFn = (num: number): string => num.toString()
+export function someFn(num: number): number {
+
+  return num
+}
